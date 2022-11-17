@@ -1,0 +1,34 @@
+<!DOCKTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="basic.css">
+		<title>Streets Services</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+	</head>
+	<body>
+		<header>
+			<h1>Streets Services Food</h1>
+		</header>
+		<hr>
+		<div>
+			<button type="random1" onclick="random1()">Random lunch</button>
+			<input name="random1" id="random1">
+			<br>
+			<button type="random" onclick="random()">Random Dinner</button>
+			<input name="random" id="random">
+		</div>
+		<script>
+			var lunch = Array("Wraps", "Cheesy Wraps", "Toast", "Go Out", "Pate on Toast", "Sandwiches", "Bacon Sandwiches", "Warm  Rolls");
+			function random1() {
+			var random1 = lunch[Math.floor(Math.random() * lunch.length)];
+			document.getElementById('random1').value = random1;
+			}
+			var dinner = Array("Burgers", "Pizza", "Homemade Pizza", "Korma", "Butter Chicken", "Spaghetti Bolognese ", "Cilli Con Carne", "Cheesy Bacon Pasta", "Honey Sesame Chicken");
+			function random() {
+			var random = dinner[Math.floor(Math.random() * dinner.length)];
+			document.getElementById('random').value = random;
+			}
+		</script>
+	</body>
+</html>
