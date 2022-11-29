@@ -58,6 +58,7 @@ h1{
 }
 body{
 	background-color:rgb(17 24 39);
+	overflow: hidden;
 }
 a:link {
   color: white;
