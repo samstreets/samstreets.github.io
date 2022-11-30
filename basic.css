@@ -59,7 +59,9 @@ h1{
 body{
 	background-color:rgb(17 24 39);
 	overflow: hidden;
-	overflow-y:scroll;
+	
+}
+html{overflow-y:scroll;
 }
 a:link {
   color: white;
