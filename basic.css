@@ -55,10 +55,11 @@ h1{
 }
 body{
 	background-color:rgb(17 24 39);
-	overflow: hidden;
+	overflow-x:hidden;
+	overflow-y:auto;
 }
 #page{
-	overflow-y:scroll;
+	#overflow-y:;
 }
 a:link {
   color: white;
