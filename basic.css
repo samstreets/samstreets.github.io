@@ -55,10 +55,9 @@ h1{
 }
 body{
 	background-color:rgb(17 24 39);
-	overflow-x:hidden;
-	overflow-y:auto;
-	-webkit-overflow-scrolling: touch;
-	heigh:auto;
+	#overflow-x:hidden;
+	#overflow-y:auto;
+	#heigh:auto;
 }
 #page{
 	#overflow-y:;
