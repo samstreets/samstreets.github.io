@@ -57,6 +57,7 @@ body{
 	background-color:rgb(17 24 39);
 	overflow-x:hidden;
 	overflow-y:auto;
+	-webkit-overflow-scrolling: touch;
 }
 #page{
 	#overflow-y:;
