@@ -58,6 +58,7 @@ body{
 	overflow-x:hidden;
 	overflow-y:auto;
 	-webkit-overflow-scrolling: touch;
+	heigh:auto;
 }
 #page{
 	#overflow-y:;
