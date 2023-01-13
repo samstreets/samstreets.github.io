@@ -9,6 +9,9 @@ h1{
 	text-align:center;
 	font-size:220%;
 }
+p{
+	color:white;
+}
 .app{
 	text-align: center;
 	float:left;
