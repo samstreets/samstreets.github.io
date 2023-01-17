@@ -52,7 +52,7 @@ p{
 @media only screen and (min-width: 400px) {
 	.jackbox{
 		text-align: center;
-		float:left;
+		#float:left;
 		width:400px;
 		height:800px;
 		min-height:500px;
