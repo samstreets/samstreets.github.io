@@ -62,7 +62,6 @@ p{
 		margin-bottom:10px
 	}
 }
-
 @media only screen and (max-width: 400px) {
 	.jackbox{
 		text-align: center;
@@ -74,7 +73,6 @@ p{
 		margin-bottom:10px
 	}
 }
-
 body{
 	background-color:rgb(17 24 39);
 	color:white;
