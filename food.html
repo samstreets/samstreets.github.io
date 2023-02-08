@@ -20,6 +20,9 @@
 			<br>
 			<button type="random2" onclick="random2()">Random Meal Deal</button>
 			<input name="random2" id="random2">
+			<br>
+			<button type="random3" onclick="random3()">Random Place to go out</button>
+			<input name="random3" id="random3">
 		</div>
 		<script>
 			var lunch = Array("Wraps", "Cheesy Wraps", "Toast", "Noodles", "Pate on Toast", "Sandwiches", "Bacon Sandwiches", "Warm Rolls", "Beans on Toast", "fried Egg Sandwich");
@@ -33,10 +36,15 @@
 			var random = dinner[Math.floor(Math.random() * dinner.length)];
 			document.getElementById('random').value = random;
 			}
-			var mealdeal = Array("Sausgae & Mash", "CHiken Korma", "Meatballs & Pasta");
+			var mealdeal = Array("Sausgae & Mash", "Chicken Korma", "Meatballs & Pasta");
 			function random2() {
-			var random2 = meal[Math.floor(Math.random() * meal.length)];
+			var random2 = mealdeal[Math.floor(Math.random() * mealdeal.length)];
 			document.getElementById('random2').value = random2;
+			}
+			var out = Array("McDonalds", "Subway", "KFC", "Nandos", "Pub");
+			function random3() {
+			var random3 = out[Math.floor(Math.random() * out.length)];
+			document.getElementById('random3').value = random3;
 			}
 		</script>
 	</body>
