@@ -80,7 +80,15 @@ body{
 body::-webkit-scrollbar{
     display: none; /* for Chrome, Safari, and Opera */
 }
+.button{
+	text-align: center;
+	width: 200px;
+}
 
+input {
+	width: 400px;
+	text-align: center;
+}
 a:link {
   color: white;
   background-color: transparent;
