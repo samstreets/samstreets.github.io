@@ -17,17 +17,26 @@
 			<br>
 			<button type="random" onclick="random()">Random Dinner</button>
 			<input name="random" id="random">
+			<br>
+			<button type="random2" onclick="random2()">Random Meal Deal</button>
+			<input name="random2" id="random2">
 		</div>
 		<script>
-			var lunch = Array("Wraps", "Cheesy Wraps", "Toast", "Go Out", "Pate on Toast", "Sandwiches", "Bacon Sandwiches", "Warm  Rolls");
+			var lunch = Array("Wraps", "Cheesy Wraps", "Toast", "Noodles", "Pate on Toast", "Sandwiches", "Bacon Sandwiches", "Warm Rolls", "Beans on Toast", "fried Egg Sandwich");
 			function random1() {
 			var random1 = lunch[Math.floor(Math.random() * lunch.length)];
 			document.getElementById('random1').value = random1;
 			}
-			var dinner = Array("Burgers", "Pizza", "Homemade Pizza", "Korma", "Butter Chicken", "Spaghetti Bolognese ", "Cilli Con Carne", "Cheesy Bacon Pasta", "Honey Sesame Chicken");
+			var dinner = Array("Burgers", "Pizza", "Homemade Pizza", "Korma", "Butter Chicken", "Spaghetti Bolognese ", "Cilli Con Carne", "Cheesy Bacon Pasta", "Honey Sesame Chicken",
+			"Chiken Nuggies & Chips", "Lasanga", "pasta bake", "Meatloaf", "Fish & Chips", "Stuffed garlic Buaguettes");
 			function random() {
 			var random = dinner[Math.floor(Math.random() * dinner.length)];
 			document.getElementById('random').value = random;
+			}
+			var mealdeal = Array("Sausgae & Mash", "CHiken Korma", "Meatballs & Pasta");
+			function random2() {
+			var random2 = meal[Math.floor(Math.random() * meal.length)];
+			document.getElementById('random2').value = random2;
 			}
 		</script>
 	</body>
