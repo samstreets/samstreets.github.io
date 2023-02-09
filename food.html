@@ -1,51 +1,54 @@
-<!DOCKTYPE html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="basic.css">
-		<title>Streets Services</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1" /> 
-	</head>
-	<body>
-		<header>
-			<h1>Streets Services Food</h1>
-		</header>
-		<hr>
-		<div>
-			<button class ="button" onclick="random1()">Random lunch</button>
-			<input name="random1" id="random1">
-			<br>
-			<button class ="button" onclick="random()">Random Dinner</button>
-			<input name="random" id="random">
-			<br>
-			<button class ="button" onclick="random2()">Random Meal Deal</button>
-			<input name="random2" id="random2">
-			<br>
-			<button class ="button" onclick="random3()">Random Place to go out</button>
-			<input name="random3" id="random3">
-		</div>
-		<script>
-			var lunch = Array("Wraps", "Cheesy Wraps", "Toast", "Noodles", "Pate on Toast", "Sandwiches", "Bacon Sandwiches", "Warm Rolls", "Beans on Toast", "fried Egg Sandwich", "Go Out");
-			function random1() {
-			var random1 = lunch[Math.floor(Math.random() * lunch.length)];
-			document.getElementById('random1').value = random1;
-			}
-			var dinner = Array("Burgers", "Pizza", "Homemade Pizza", "Korma", "Butter Chicken", "Spaghetti Bolognese ", "Cilli Con Carne", "Cheesy Bacon Pasta", "Honey Sesame Chicken",
-			"Chiken Nuggies & Chips", "Lasanga", "pasta bake", "Meatloaf", "Fish & Chips", "Stuffed garlic Buaguettes", "Go Out");
-			function random() {
-			var random = dinner[Math.floor(Math.random() * dinner.length)];
-			document.getElementById('random').value = random;
-			}
-			var mealdeal = Array("Sausgae & Mash", "Chicken Korma", "Meatballs & Pasta");
-			function random2() {
-			var random2 = mealdeal[Math.floor(Math.random() * mealdeal.length)];
-			document.getElementById('random2').value = random2;
-			}
-			var out = Array("McDonalds", "Subway", "KFC", "Nandos", "Green King", "Weatherspoons");
-			function random3() {
-			var random3 = out[Math.floor(Math.random() * out.length)];
-			document.getElementById('random3').value = random3;
-			}
-		</script>
-	</body>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="basic.css">
+    <title>Streets Services</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header>
+      <h1>Streets Services Food</h1>
+    </header>
+    <hr>
+    <div>
+      <button class="button" onclick="generateLunch()">Random Lunch</button>
+      <input name="lunch" id="lunch">
+      <br>
+      <button class="button" onclick="generateDinner()">Random Dinner</button>
+      <input name="dinner" id="dinner">
+      <br>
+      <button class="button" onclick="generateMealDeal()">Random Meal Deal</button>
+      <input name="mealDeal" id="mealDeal">
+      <br>
+      <button class="button" onclick="generateOut()">Random Place to Go Out</button>
+      <input name="out" id="out">
+    </div>
+    <script>
+      const lunchOptions = ["Wraps", "Cheesy Wraps", "Toast", "Noodles", "Pate on Toast", "Sandwiches", "Bacon Sandwiches", "Warm Rolls", "Beans on Toast", "Fried Egg Sandwich", "Go Out"];
+      function generateLunch() {
+        const randomLunch = lunchOptions[Math.floor(Math.random() * lunchOptions.length)];
+        document.getElementById("lunch").value = randomLunch;
+      }
+
+      const dinnerOptions = ["Burgers", "Pizza", "Homemade Pizza", "Korma", "Butter Chicken", "Spaghetti Bolognese", "Cilli Con Carne", "Cheesy Bacon Pasta", "Honey Sesame Chicken",
+      "Chicken Nuggets & Chips", "Lasagna", "Pasta Bake", "Meatloaf", "Fish & Chips", "Stuffed Garlic Baguettes", "Go Out"];
+      function generateDinner() {
+        const randomDinner = dinnerOptions[Math.floor(Math.random() * dinnerOptions.length)];
+        document.getElementById("dinner").value = randomDinner;
+      }
+
+      const mealDealOptions = ["Sausage & Mash", "Chicken Korma", "Meatballs & Pasta"];
+      function generateMealDeal() {
+        const randomMealDeal = mealDealOptions[Math.floor(Math.random() * mealDealOptions.length)];
+        document.getElementById("mealDeal").value = randomMealDeal;
+      }
+
+      const outOptions = ["McDonald's", "Subway", "KFC", "Nandos", "Green King", "Weatherspoon's"];
+      function generateOut() {
+        const randomOut = outOptions[Math.floor(Math.random() * outOptions.length)];
+        document.getElementById("out").value = randomOut;
+      }
+    </script>
+  </body>
 </html>
