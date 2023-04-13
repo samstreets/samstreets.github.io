@@ -59,7 +59,7 @@ p{
 }
 body{
 	background-color:rgb(17 24 39);
-	color:white;
+	color:#ff00ff;
 }
 body::-webkit-scrollbar{
     display: none; /* for Chrome, Safari, and Opera */
@@ -86,7 +86,7 @@ a:visited {
 }
 
 a:hover {
-  color: blue;
+  color: white;
   background-color: transparent;
   text-decoration: none;
 }
