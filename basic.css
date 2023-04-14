@@ -58,7 +58,6 @@ p{
 }
 body{
 	background-color:rgb(17 24 39);
-	color:#ff00ff;
 }
 body::-webkit-scrollbar{
     display: none; /* for Chrome, Safari, and Opera */
