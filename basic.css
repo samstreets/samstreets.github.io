@@ -33,13 +33,44 @@ p{
 }
 #plex{
 	text-align:center;
-	width:100%;
+	width:33%;
 	line-height: 20px;
 	margin-right: 10px;
 	margin-top: 10px;
 	margin-bottom:10px
 }
-
+#managemant{
+	text-align:center;
+	width:33%;
+	line-height: 20px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom:10px
+}
+#monitor{
+	text-align:center;
+	width:33%;
+	line-height: 20px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom:10px
+}
+#redundancy{
+	text-align:center;
+	width:33%;
+	line-height: 20px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom:10px
+}
+#sites{
+	text-align:center;
+	width:33%;
+	line-height: 20px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom:10px
+}
 @media only screen and (min-width: 400px) {
 	.jackbox{
 		display:inline-block;
