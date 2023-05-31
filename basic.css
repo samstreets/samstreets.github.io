@@ -33,7 +33,9 @@ p{
 .col-container {
 	display: flex;
 	width: 100%; 
-	flex-wrap: wrap;
+	flex-wrap: row wrap;
+	justify-content: center;
+	flex-basis: 33%;
 }
 .col {
 	/*flex: 1;*/
