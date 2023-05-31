@@ -37,7 +37,7 @@ p{
 }
 .col {
 	/*display: table-cell; */
-	flex: 1;
+	flex: 33%;
 	display:inline-block;
 	text-align:center;
 	min-width: 155px;
