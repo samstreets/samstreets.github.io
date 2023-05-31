@@ -39,7 +39,7 @@ p{
 	justify-content: space-around;
 }
 .col {
-	min-width: 400px;
+	width: 500px;
 	display:inline-block;
 	text-align:center;
 	border-width:2px;
