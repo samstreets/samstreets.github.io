@@ -39,7 +39,8 @@ p{
 	/*flex: 33%;*/
 	display:inline-block;
 	text-align:center;
-	width: 400px;
+	min-width: 400px;
+	max-width: 500px;
 	border-width:2px;
 	border-style:solid;
 	border-color:white;
