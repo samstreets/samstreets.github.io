@@ -32,12 +32,12 @@ p{
 	border-color:white;
 }
 .col-container {
-	display: flex;
+	display: table;
 	width: 100%; 
 }
 .col {
-	/*display: table-cell; */
-	flex: 33%;
+	display: table-cell;
+	/*flex: 33%;*/
 	display:inline-block;
 	text-align:center;
 	min-width: 155px;
