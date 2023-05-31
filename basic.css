@@ -31,12 +31,11 @@ p{
 	border-color:white;
 }
 .col-container {
-	display: table;
+	display: flex;
 	width: 100%; 
 }
 .col {
-	display: table-cell;
-	/*flex: 33%;*/
+	flex: 1;
 	display:inline-block;
 	text-align:center;
 	border-width:2px;
