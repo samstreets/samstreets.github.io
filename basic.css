@@ -29,20 +29,26 @@ p{
 	border-style:solid;
 	border-color:white;
 }
-.col-container {
-	display: flex;
-	width: 100%; 
-	flex-wrap: wrap;
-	flex-direction: row;
-	justify-content: space-around;
+@media only screen and (min-width: 400px) {
+	.col-container {
+		display: flex;
+		width: 100%; 
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.col {
+		width: 350px;
+		display:inline-block;
+		text-align:center;
+		margin:10px;
+	}
 }
-.col {
-	width: 350px;
-	display:inline-block;
-	text-align:center;
-	margin:10px;
+@media only screen and (max-width: 400px) {
+	.col-container {
+		flex-direction: column;
+	}
 }
-
 @media only screen and (min-width: 400px) {
 	.jackbox{
 		display:inline-block;
