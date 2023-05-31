@@ -34,12 +34,11 @@ p{
 	display: flex;
 	width: 100%; 
 	flex-wrap: wrap;
-	flex-basis: 400px;
 	flex-direction: row;
 	justify-content: space-around;
 }
 .col {
-	width: 500px;
+	width: 350px;
 	display:inline-block;
 	text-align:center;
 	border-width:2px;
