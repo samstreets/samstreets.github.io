@@ -33,8 +33,10 @@ p{
 .col-container {
 	display: flex;
 	width: 100%; 
-	flex-wrap: row wrap;
+	flex-wrap: wrap;
 	flex-basis: 400px;
+	flex-direction: row;
+	justify-content: space-around;
 }
 .col {
 	/*flex: 1;*/
