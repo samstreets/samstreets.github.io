@@ -33,9 +33,10 @@ p{
 .col-container {
 	display: flex;
 	width: 100%; 
+	flex-wrap: wrap;
 }
 .col {
-	flex: 1;
+	/*flex: 1;*/
 	display:inline-block;
 	text-align:center;
 	border-width:2px;
