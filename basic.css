@@ -39,8 +39,6 @@ p{
 	display: table-cell; /* Make elements inside the container behave like table cells */
 	display:inline-block;
 	text-align:center;
-	width:32%;
-	line-height: 20px;
 	border-width:2px;
 	border-style:solid;
 	border-color:white;
