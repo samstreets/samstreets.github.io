@@ -39,7 +39,7 @@ p{
 	/*flex: 33%;*/
 	display:inline-block;
 	text-align:center;
-	min-width: 400px;
+	width: 400px;
 	border-width:2px;
 	border-style:solid;
 	border-color:white;
