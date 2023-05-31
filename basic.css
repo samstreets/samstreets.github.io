@@ -32,11 +32,12 @@ p{
 	border-color:white;
 }
 .col-container {
-	display: table; /* Make the container element behave like a table */
-	width: 100%; /* Set full-width to expand the whole page */
+	display: flex;
+	width: 100%; 
 }
 .col {
-	display: table-cell; /* Make elements inside the container behave like table cells */
+	/*display: table-cell; */
+	flex: 1;
 	display:inline-block;
 	text-align:center;
 	width: 33%;
