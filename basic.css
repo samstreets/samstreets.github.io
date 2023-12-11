@@ -7,6 +7,12 @@ h1{
 	text-align:center;
 	font-size:220%;
 }
+h2{
+	color:rgb(255, 255, 255)
+}
+ul{
+	color:rgb(255, 255, 255)
+}
 
 p{
 	color:rgb(255, 255, 255);
@@ -54,7 +60,7 @@ p{
 		text-align:center;
 		margin:10px;
 	}
-	section{
+	.home{
 		width:50%
 	}
 }
@@ -77,7 +83,7 @@ p{
 		text-align:center;
 		margin:10px;
 	}
-	section{
+	.home{
 		width:100%
 	}
 }
