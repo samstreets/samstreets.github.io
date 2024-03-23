@@ -64,7 +64,9 @@ p{
 		margin:10px;
 	}
 	.home{
-		width:50%
+		width:50%;
+		display:inline-block;
+		vertical-align:top;
 	}
 }
 @media only screen and (max-width: 400px) {
