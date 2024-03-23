@@ -144,9 +144,11 @@ a:hover {
 #homelab{
 	width:49%;
 	display:inline-block;
-	overflow:wrap;
 	text-align:top;
+
 }
 .content{
 	display:inline-block;
+	align-items: left;
+	align-items: top;
 }
