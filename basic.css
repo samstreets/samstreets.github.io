@@ -123,32 +123,25 @@ a:hover {
 #background{
 	width:100%;
 	float:left;
-	text-align:top;
 }
 
 #responsability{
 	width:49%;
 	float:left;
-	text-align:top;
 }
 #interests{
 	width:49%;
 	float:left;
-	text-align:top;
 }
 #skills{
 	width:49%;
 	float:left;
-	text-align:top;
 }
 #homelab{
 	width:49%;
 	float:left;
-	text-align:top;
 
 }
 .content{
 	display:inline-block;
-	align-items: left;
-	align-items: top;
 }
