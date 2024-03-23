@@ -128,18 +128,22 @@ a:hover {
 #responsability{
 	width:49%;
 	display:inline-block;
+	vertical-align:top;
 }
 #interests{
 	width:49%;
 	display:inline-block;
+	vertical-align:top;
 }
 #skills{
 	width:49%;
 	display:inline-block;
+	vertical-align:top;
 }
 #homelab{
 	width:49%;
 	display:inline-block;
+	vertical-align:top;
 }
 .content{
 	display:inline-block;
