@@ -127,19 +127,19 @@ a:hover {
 
 #responsability{
 	width:49%;
-	float:left;
+	display:inline-block;
 }
 #interests{
 	width:49%;
-	float:left;
+	display:inline-block;
 }
 #skills{
 	width:49%;
-	float:left;
+	display:inline-block;
 }
 #homelab{
 	width:49%;
-	float:left;
+	display:inline-block;
 }
 .content{
 	display:inline-block;
