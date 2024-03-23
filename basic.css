@@ -140,8 +140,10 @@ a:hover {
 #homelab{
 	width:49%;
 	float:left;
-
 }
 .content{
 	display:inline-block;
+}
+#break{
+	width:100%
 }
