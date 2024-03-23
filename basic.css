@@ -121,20 +121,25 @@ a:hover {
 }
 
 #backgroung{
-	width:49%
+	width:49%;
+	display:inline-block;
 }
 
 #responsability{
-	width:49%
+	width:49%;
+	display:inline-block;
 }
 #interests{
-	width:49%
+	width:49%;
+	display:inline-block;
 }
 #skills{
-	width:49%
+	width:49%;
+	display:inline-block;
 }
 #homelabs{
-	width:49%
+	width:49%;
+	display:inline-block;
 }
 .content{
 	display:inline-block;
