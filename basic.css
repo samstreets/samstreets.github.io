@@ -136,3 +136,6 @@ a:hover {
 #homelabs{
 	width:49%
 }
+.content{
+	display:inline-block;
+}
